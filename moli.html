@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nebulosas y Galaxias</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #090d20;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(
+        rgba(10, 12, 40, 0.55),
+        rgba(9, 13, 32, 0.9)
+    ), url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564")
+    center/cover;
+}
+
+header h1 {
+    font-size: 45px;
+    color: #dfcaff;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+nav {
+    background: #171936;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #d9c5ff;
+    text-decoration: none;
+    margin: 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #c8aaff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #7554a8;
+    padding-bottom: 8px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background: #171b38;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.tarjeta h3 {
+    color: #d7baff;
+    margin-bottom: 8px;
+}
+
+.dato {
+    background: #202448;
+    padding: 18px;
+    border-left: 4px solid #a98ae8;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+form {
+    background: #171b38;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    background: #8562c7;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a98ae8;
+}
+
+footer {
+    text-align: center;
+    background: #171936;
+    padding: 25px;
+    margin-top: 30px;
+    color: #c7c4df;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Nebulosas y Galaxias</h1>
+    <p>Un viaje por los misterios y maravillas del universo</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nebulosas">Nebulosas</a>
+    <a href="#galaxias">Galaxias</a>
+    <a href="#datos">Datos interesantes</a>
+    <a href="#formulario">Formulario</a>
+</nav>
+
+<section id="inicio">
+    <h2>Explorando el universo</h2>
+    <p>
+    El universo está formado por millones de galaxias,
+    estrellas, planetas y nebulosas. Estos cuerpos
+    celestes nos permiten conocer cómo se forman
+    las estrellas y cómo evoluciona el espacio.
+    </p>
+</section>
+
+<section id="nebulosas">
+    <h2>¿Qué son las nebulosas?</h2>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986" alt="Espacio">
+            <h3>Nebulosas</h3>
+            <p>
+            Son enormes nubes de gas y polvo cósmico
+            que se encuentran en el espacio. En ellas
+            pueden nacer nuevas estrellas.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564" alt="Nebulosa">
+            <h3>Formación estelar</h3>
+            <p>
+            Algunas nebulosas contienen materiales
+            que, con el tiempo y la gravedad,
+            pueden formar nuevas estrellas.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="galaxias">
+    <h2>¿Qué son las galaxias?</h2>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564" alt="Galaxia">
+            <h3>Galaxias espirales</h3>
+            <p>
+            Tienen un centro brillante y brazos
+            que giran a su alrededor. La Vía Láctea
+            pertenece a este tipo.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Universo">
+            <h3>Galaxias elípticas</h3>
+            <p>
+            Tienen una forma ovalada y están
+            compuestas principalmente por estrellas.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="datos">
+    <h2>Datos interesantes</h2>
+
+    <div class="dato">
+        ✦ La Vía Láctea es la galaxia donde se encuentra nuestro sistema solar.
+    </div>
+
+    <div class="dato">
+        ✦ Algunas nebulosas pueden tener cientos de años luz de extensión.
+    </div>
+
+    <div class="dato">
+        ✦ Existen miles de millones de galaxias en el universo observable.
+    </div>
+
+    <div class="dato">
+        ✦ Las nebulosas pueden ser lugares donde nacen o mueren estrellas.
+    </div>
+</section>
+
+<section id="formulario">
+    <h2>Formulario de aprendizaje</h2>
+
+    <form onsubmit="alert('¡Gracias por participar!'); return false;">
+
+        <label>1. ¿Qué es una nebulosa?</label>
+        <select required>
+            <option value="">Selecciona una respuesta</option>
+            <option>Una nube de gas y polvo cósmico</option>
+            <option>Un planeta</option>
+            <option>Una luna</option>
+        </select>
+
+        <label>2. ¿Cómo se llama nuestra galaxia?</label>
+        <select required>
+            <option value="">Selecciona una respuesta</option>
+            <option>Andrómeda</option>
+            <option>Vía Láctea</option>
+            <option>Sombrero</option>
+        </select>
+
+        <label>3. ¿Dónde pueden formarse nuevas estrellas?</label>
+        <select required>
+            <option value="">Selecciona una respuesta</option>
+            <option>En las nebulosas</option>
+            <option>En los planetas</option>
+            <option>En los satélites</option>
+        </select>
+
+        <button type="submit">Enviar respuestas</button>
+    </form>
+</section>
+
+<section id="calificacion">
+    <h2>Califica nuestra página</h2>
+
+    <form onsubmit="alert('¡Gracias por tu calificación!'); return false;">
+
+        <label>¿Qué te pareció la información?</label>
+
+        <select required>
+            <option value="">Selecciona tu calificación</option>
+            <option>Excelente ⭐⭐⭐⭐⭐</option>
+            <option>Muy buena ⭐⭐⭐⭐</option>
+            <option>Buena ⭐⭐⭐</option>
+            <option>Regular ⭐⭐</option>
+        </select>
+
+        <button type="submit">Calificar</button>
+    </form>
+</section>
+
+<footer>
+    <p>Proyecto escolar | Nebulosas y Galaxias</p>
+    <p>Explorando los misterios del universo ✦</p>
+</footer>
+
+</body>
+</html>
